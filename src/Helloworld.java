@@ -3,7 +3,10 @@ public class Helloworld {
         Point a = new Point();
         Point b = new Point();
         Point c=new Point(4.2, 2.5);
-        System.out.println();
-        System.out.println(a.equals(b));
+        Polygone poly = new Polygone();
+        poly.addPoint(a);
+        poly.addPoint(b);
+        poly.addPoint(c);
+        poly.affichageTab();
     }
 }
